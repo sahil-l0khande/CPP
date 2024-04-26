@@ -1,1 +1,1 @@
-# Includes all the c++ practice codes with repetitions
+# Includes C++ practice codes with repetitions
