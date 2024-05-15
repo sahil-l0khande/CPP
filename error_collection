@@ -1,0 +1,7 @@
+namespace_02.cpp:36:7: error: ‘test’ was not declared in this scope; did you mean ‘X::test’?
+   36 |     X:test();
+      |       ^~~~
+      |       X::test
+
+
+================= To resolved this , X::test() , : one was missing
