@@ -9,9 +9,9 @@ void printSumArr(int arr[], int n){
             for(int k=i;k<=j;k++){
                 std::cout << arr[k]<<",";
                 
-                
+                sum = sum + arr[k]; // this is correct
             }
-            sum = sum + arr[j];
+            // this the the mistake we did : sum = sum + arr[j];
             std::cout <<"[" << sum << "]";
             if(sum > maxSum){
                 maxSum = sum;
