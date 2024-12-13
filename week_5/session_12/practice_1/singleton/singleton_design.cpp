@@ -45,3 +45,11 @@ void test_singleton(void) {
 	pSingleton_1 = 0;
 }
 
+
+
+
+
+
+
+
+
